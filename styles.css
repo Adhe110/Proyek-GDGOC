@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background: 
+        url('https://www.transparenttextures.com/patterns/stardust.png'),
+        linear-gradient(135deg, rgb(17, 24, 44), rgb(25, 11, 38));
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    position: relative;
+}
+
+.container {
+    max-width: 600px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    color: #000000;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: inline-block;
+    background: #764ba2;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #543d6b;
+    color: #ffffff;
+    font: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: linear-gradient(135deg, rgb(17, 24, 44), rgb(25, 11, 38));
+    color: white;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+    color: black;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: white;
+}
